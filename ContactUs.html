@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DTU/About US</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="./dtuimages/dtlogo0.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">STUDENT</a></li>
+                    <li><a href="">REGISTER</a></li>
+                    <!-- <li><a href="">COMMUNITY</a></li>
+                    <li><a href="">STAFFS</a></li>   -->
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+
+         </nav>
+         <h1>Contact Us</h1>
+         <section class="contact">
+             <div class="getin">
+                 <h2>Get in Touch With Us</h2>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt labore impedit deleniti, ipsum tempora dolorum cupiditate quam totam illo itaque!</p>
+                 <div class="getin-details">
+                     <h3>Debretabour</h3>
+                     <div>
+                         <i class="far fa-home get"></i>
+                         <p>debre tabor  amhara south gonder</p>
+                     </div>
+                     <h3>Phone number</h3>
+                     <div>
+                         <i class="far fa-phne get" ></i>
+                         <p>093939**** <br> 094765****</p>
+                     </div>
+                     <h3>Email Us</h3>
+                     <div>
+                         <i class="fal fa-envelope-open-text get"></i>
+                         <p>debretaboruniversity.com <br>
+                             debretaboruniversity@gmail.com</p>
+                     </div>
+                     <h3>follow us on social media </h3>
+                     <div class="icons">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-telegram"></i>
+                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-twitter"></i>
+                      </div>
+                 </div>
+             </div>
+             <div class="form"></div>
+         </section>
+      
+        </section>
+      
+           <!-- footer -->
+
+           <section class="footer">
+               <h4>About Dtu</h4>
+               <p>Debre TaborUniversity is a university in the city of Debre Tabor, the capital of the Northern Gondar , <br>
+                 Amhara Regional State in Ethiopia. The University is a currently in <br>
+                  Wereta city but after the completion of the first phase building in 2005 its transferred to Debre Tabor city.</p>
+                  <div class="icons">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-telegram"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-twitter"></i>
+                  </div>
+                  <p>Made with <i class="fa fa-heart-o"></i> Temesgen Teferi</p>
+
+           </section>
+
+        <!-- javascript toogle menu for mobile screen size-->
+        <script>
+            var navlinks = document.getElementById("navlinks");
+
+            function showmenu(){
+                navlinks.style.right ="0";
+            }
+            function hidemenu(){
+                navlinks.style.right ="-200px";
+            }
+        </script>
+
+</body>
+</html> 
